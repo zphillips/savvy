@@ -92,11 +92,7 @@ body {
 }
 
 .hook {
-  margin: 20px 40px 10px 40px;
-}
-
-.form {
-  margin: 10px 40px 20px 40px;
+  margin: 0px 40px 10px 40px;
 }
 
 .text {
@@ -151,11 +147,11 @@ body {
   }
 
   .savvy-title {
-    height: 30%;
+    height: 25%;
   }
 
   .signup-area {
-    height: 70%;
+    height: 75%;
   }
 }
 
