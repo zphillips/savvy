@@ -93,6 +93,11 @@ body {
   /* border: solid red; */
 }
 
+.area {
+  /* border: solid red; */
+  padding: 20px;
+}
+
 .hook {
   margin: 0px 40px 20px 40px;
 }
