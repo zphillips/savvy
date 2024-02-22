@@ -95,7 +95,7 @@ body {
 
 .area {
   /* border: solid red; */
-  padding: 20px;
+  /* padding: 50px; */
 }
 
 .hook {
@@ -166,6 +166,7 @@ body {
   .signup-area {
     height: auto;
     min-height: 70%;
+    overflow-y: auto;
   }
 }
 
