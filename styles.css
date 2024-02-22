@@ -1,8 +1,138 @@
 body {
-    background-color: #1a237e; /* Dark blue background color */
-    color: #ff8a80; /* Light pink text color */
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 50px;
+  padding: 0;
+  margin: 0;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #FFFBFC;
+}
+
+.savvy-title, .signup-area {
+  width: 50%;
+  height: 100%;
+}
+
+.savvy-title {
+  font-size: 100px;
+  background-color: #001F3D;
+  color: #E84855;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.logo {
+  animation: fill 0.5s ease forwards 2.5s;
+}
+
+.logo path:nth-child(5) {
+  stroke-dasharray: 245px;
+  stroke-dashoffset: 245px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(4) {
+  stroke-dasharray: 283px;
+  stroke-dashoffset: 283px;
+  animation: line-anim 2s ease forwards 0.2s;
+}
+
+.logo path:nth-child(3) {
+  stroke-dasharray: 246px;
+  stroke-dashoffset: 246px;
+  animation: line-anim 2s ease forwards 0.4s;
+}
+
+.logo path:nth-child(2) {
+  stroke-dasharray: 246px;
+  stroke-dashoffset: 246px;
+  animation: line-anim 2s ease forwards 0.6s;
+}
+
+.logo path:nth-child(1) {
+  stroke-dasharray: 280px;
+  stroke-dashoffset: 280px;
+  animation: line-anim 2s ease forwards 0.8s;
+}
+
+@keyframes line-anim{
+  to{
+    stroke-dashoffset: 0;
   }
-  
+}
+
+@keyframes fill{
+  from{
+    fill: transparent;
+  }
+  to{
+    fill: #E84855;
+  }
+}
+
+.signup-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hook {
+  margin: 0px 40px 20px 40px;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.title {
+  font-size: 32px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.signup-area input[type="email"] {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #001F3D; 
+
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.signup-area button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #E84855;
+  color: #FFFBFC;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
