@@ -89,10 +89,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  /* border: solid red; */
 }
 
 .hook {
   margin: 0px 40px 20px 40px;
+}
+
+.form {
+  width: 100%;
+  /* border: solid green; */
+  padding-bottom: 20px;
 }
 
 .text {
