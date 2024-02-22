@@ -136,3 +136,22 @@ body {
     "slnt" 0;
 }
 
+@media screen and (max-width: 800px) {
+  .signup-page {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .signup-area, .savvy-title {
+    width: 100%;
+  }
+
+  .savvy-title {
+    height: 30%;
+  }
+
+  .signup-area {
+    height: 70%;
+  }
+}
+
