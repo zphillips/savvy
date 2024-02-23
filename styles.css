@@ -28,7 +28,7 @@ body {
 }
 
 .form {
-  border: solid green;
+  /* border: solid green; */
 }
 
 .savvy-title {
@@ -101,7 +101,7 @@ body {
 .hook {
   /* margin-bottom: 5px; */
   /* border: solid green; */
-  border: solid red;
+  /* border: solid red; */
 }
 
 .text {
