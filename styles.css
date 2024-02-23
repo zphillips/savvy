@@ -28,7 +28,7 @@ body {
 }
 
 .form {
-  /* border: solid green; */
+  border: solid green;
 }
 
 .savvy-title {
@@ -101,6 +101,7 @@ body {
 .hook {
   /* margin-bottom: 5px; */
   /* border: solid green; */
+  border: solid red;
 }
 
 .text {
@@ -180,6 +181,10 @@ body {
     flex-direction: column;
     margin-top: 0;
     align-items: center;
+  }
+
+  .form {
+    border: solid green;
   }
 }
 
