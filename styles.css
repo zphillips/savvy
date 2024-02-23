@@ -24,7 +24,11 @@ body {
 }
 
 .area {
-  padding: 60px;
+  padding: 40px;
+}
+
+.form {
+  /* border: solid green; */
 }
 
 .savvy-title {
@@ -95,7 +99,7 @@ body {
 }
 
 .hook {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .text {
@@ -126,6 +130,8 @@ body {
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
+
+  margin: 10px;
 }
 
 .signup-area button[type="submit"] {
@@ -162,7 +168,6 @@ body {
     height: auto;
     min-height: 70vh;
     margin-top: 0px;
-    /* border: solid red; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -170,7 +175,6 @@ body {
   }
 
   .area {
-    /* border: solid green; */
     display: flex;
     flex-direction: column;
     margin-top: 0;
