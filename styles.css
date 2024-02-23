@@ -91,7 +91,7 @@ body {
 }
 
 .hook {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .text {
@@ -101,6 +101,11 @@ body {
 .bold-text {
   font-size: 16px;
   color: #9A275A;
+}
+
+.area {
+  /* border: solid red; */
+  padding-bottom: 40px;
 }
 
 .title {
@@ -151,11 +156,11 @@ body {
   }
 
   .savvy-title {
-    height: 30%;
+    height: 25vh;
   }
 
   .signup-area {
-    height: 70%;
+    height: 75vh;
   }
 }
 
