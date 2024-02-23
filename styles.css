@@ -24,7 +24,7 @@ body {
 }
 
 .area {
-  padding: 40px;
+  padding: 20px;
 }
 
 .form {
@@ -99,7 +99,7 @@ body {
 }
 
 .hook {
-  margin-bottom: 20px;
+  /* margin-bottom: 5px; */
 }
 
 .text {
