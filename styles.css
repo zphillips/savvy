@@ -25,8 +25,7 @@ body {
 
 .savvy-title {
   font-size: 100px;
-  background-color: #001F3D;
-  color: #E84855;
+  background-color: #9A275A;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,7 +79,7 @@ body {
     fill: transparent;
   }
   to{
-    fill: #E84855;
+    fill: #FFC2E2;
   }
 }
 
@@ -92,7 +91,7 @@ body {
 }
 
 .hook {
-  margin: 0px 40px 20px 40px;
+  margin: 0px 40px 40px 40px;
 }
 
 .form {
@@ -102,6 +101,11 @@ body {
 
 .text {
   font-size: 16px;
+}
+
+.bold-text {
+  font-size: 16px;
+  color: #9A275A;
 }
 
 .title {
@@ -115,7 +119,7 @@ body {
   padding: 10px;
   width: 200px;
   border-radius: 5px;
-  border: 1px solid #001F3D; 
+  border: 1px solid #9A275A; 
 
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -127,7 +131,7 @@ body {
 
 .signup-area button[type="submit"] {
   padding: 10px 20px;
-  background-color: #E84855;
+  background-color: #9A275A;
   color: #FFFBFC;
   border: none;
   border-radius: 5px;
