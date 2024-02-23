@@ -23,6 +23,10 @@ body {
   height: 100%;
 }
 
+.area {
+  padding: 60px;
+}
+
 .savvy-title {
   font-size: 100px;
   background-color: #9A275A;
@@ -103,11 +107,6 @@ body {
   color: #9A275A;
 }
 
-.area {
-  /* border: solid red; */
-  padding: 80px 100px 100px 100px;
-}
-
 .title {
   font-size: 32px;
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -156,19 +155,26 @@ body {
   }
 
   .savvy-title {
-    height: 25vh;
+    height: 30vh;
   }
 
   .signup-area {
-    height: 75vh;
+    height: auto;
+    min-height: 70vh;
+    margin-top: 0px;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .area {
     /* border: solid green; */
-    margin-top: 0px;
-    padding: 0px 100px 300px 100px;
     display: flex;
     flex-direction: column;
+    margin-top: 0;
+    align-items: center;
   }
 }
 
