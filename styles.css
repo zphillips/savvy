@@ -24,7 +24,7 @@ body {
 }
 
 .area {
-  padding: 20px;
+  padding: 25px;
 }
 
 .form {
@@ -99,7 +99,7 @@ body {
 }
 
 .hook {
-  /* margin-bottom: 5px; */
+  padding-bottom: 15px;
   /* border: solid green; */
   /* border: solid red; */
 }
@@ -133,7 +133,7 @@ body {
   font-variation-settings:
     "slnt" 0;
 
-  margin: 0 10px 10px 0px;
+  margin: 0 5px 10px 0px;
 }
 
 .signup-area button[type="submit"] {
