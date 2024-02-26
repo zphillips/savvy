@@ -9,11 +9,17 @@ body {
     "slnt" 0;
 }
 
+.header {
+  font-weight: 600;
+  font-size: 30px;
+  color: #9A275A;
+}
+
 .signup-page {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 110vh;
   text-align: center;
   background-color: #FFFBFC;
 }
@@ -29,6 +35,8 @@ body {
 
 .form {
   /* border: solid green; */
+  margin-top: -4vh;
+  margin-bottom: 10%;
 }
 
 .savvy-title {
@@ -105,12 +113,11 @@ body {
 }
 
 .text {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .bold-text {
-  font-size: 16px;
-  color: #9A275A;
+  font-size: 20px;
 }
 
 .title {
